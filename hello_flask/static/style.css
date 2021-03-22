@@ -1,0 +1,23 @@
+body {
+    background-color: yellow;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.movie_div {
+    border-style: dashed;
+    border-width: medium;
+}
+
+
+body {
+    background-color: red;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layla's web page</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Welcome to {{hello}} page</h1>
+    <p>This is my website.</p>
+
+
+    <img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.geUm2CTVBk3ckjc-bgJepgHaE8%26pid%3DApi&f=1">
+    <p>I'm veryyyy tired today. Like, I slept at 4 AM and I don't know how my body magically woke up at 10 AM for today's class.</p>
+    <p>Welcome</p>
+    <hr>
+    <h2>Friends:</h2>
+        <ol>
+            {% for friend in friends %}
+            <li>{{friend}}</li>
+            {% endfor %}
+        </ol>
+</body>
+</html>

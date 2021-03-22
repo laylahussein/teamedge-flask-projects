@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holidays</title>
+</head>
+<body>
+
+<h1>Here's the US holiday for the day!</h1>
+    
+{% for holiday in data %}
+    <h3>{{holiday['localName']}}</h3>
+    <h3>Date: {{holiday['date']}}</h3>
+{% endfor %}
+
+</body>
+</html>

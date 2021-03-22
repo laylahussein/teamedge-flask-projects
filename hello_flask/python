@@ -1,0 +1,2 @@
+favorites = ["Harry Styles", "Blaine Anderson", "Kim Taehyung"]
+print(len(favorites))
